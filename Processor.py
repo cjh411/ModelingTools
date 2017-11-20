@@ -17,7 +17,7 @@ import pandas as pd
 
 
 
-housing = GsDF(pd.read_csv("/Users/christopherhedenberg/Downloads/DS/projects/DataRobotTool/train_housing.csv"))
+housing = pd.read_csv("C:/Users/n0267335/Documents/Modeling/Tools/Python/ModelingTools/train_housing.csv")
 tmp=data_cleaner(housing,split=True)
 tmp.clean_data()
 
